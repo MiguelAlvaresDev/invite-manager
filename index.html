@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Festive</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <aside>
+        <div class="asside-container">
+          <header>
+            <img src="assets/Logo.svg" alt="" />
+            <h1>Festive</h1>
+            <h2>Crie um convite digital para o seu evento</h2>
+          </header>
+        </div>
+      </aside>
+
+      <main>
+        <div class="container">
+          <div class="title-main">
+            <h2>Crie seu convite</h2>
+          </div>
+
+          <div class="form-invite">
+            <div class="info-event">
+              <img src="assets/icons/calendar.svg" alt="" />
+              <h3>Sobre o evento</h3>
+            </div>
+
+            <form method="post">
+              <div class="input-wrapper">
+                <label for="name-event">Título</label>
+                <input
+                  placeholder="Nome do evento"
+                  id="name-event"
+                  name="name-event"
+                  type="text"
+                />
+              </div>
+
+              <div class="input-grid">
+                <div class="input-wrapper">
+                  <label for="start">Início</label>
+                  <input type="date" name="start" id="start" />
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="end">Fim</label>
+                  <input type="date" name="end" id="end" />
+                </div>
+
+                <div class="segmented-control">
+                  <div class="input-wrapper">
+                    <label for="segmented-1">Tipo</label>
+                    <input
+                      type="radio"
+                      name="segmented-1"
+                      id="segmented-1"
+                      placeholder="Presencial"
+                    />
+                  </div>
+                    <div class="input-wrapper">
+                      <input
+                        type="radio"
+                        name="segmented-2"
+                        id="segmented-2"
+                        placeholder="Online"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="input-wrapper">
+                    <label for="loc">Local</label>
+                    <input type="text" name="loc" id="loc" placeholder="Link ou endereço" />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+input,
+textarea {
+  appearance: none;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid var(--input-stroke);
+  background-color: var(--input-base);
+
+  padding: 0.75rem 1rem;
+  font: 400 1rem var(--ff-text);
+  color: var(--text-body);
+
+  :hover {
+    border: 1px solid var(--brand-light);
+  }
+}
+
+input:focus,
+textarea:focus {
+  outline: transparent;
+  border: 0.125rem solid var(--brand-light);
+}
+
+label {
+  font: 400 1rem var(--ff-text);
+  color: var(--text-body);
+
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.input-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.segmented-control {
+  display: flex;
+}

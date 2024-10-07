@@ -1,0 +1,47 @@
+#app {
+  display: grid;
+  grid-template-columns: 30rem 1fr;
+  gap: 1.25rem;
+  margin: 1.25rem;
+
+  overflow: hidden;
+}
+
+body {
+  background-color: var(--shape-bg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-body: #c8cdd0;
+  --text-heading: #f9f9f9;
+
+  --shape-bg: #131516;
+  --shape-body: #212427;
+  --shape-button: #2d3136;
+  --shape-hover: #383d42;
+
+  --input-base: #1c1f21;
+  --input-stroke: #363b40;
+  --input-placeholder: #869198;
+
+  --brand-light: #59b2ff;
+  --brand-mid: #3487cf;
+  --brand-dark: #1d6fb6;
+
+  --semantic-error: #ff5959;
+
+  --ff-logo: "Leckerli One", cursive;
+  --ff-text: "Open Sans", sans-serif;
+  --ff-title: "Baloo 2", sans-serif;
+}
+
+.container {
+  margin-right: 8.125rem;
+  margin-left: 8.125rem;
+}

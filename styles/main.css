@@ -1,0 +1,36 @@
+main {
+  border-radius: 0.8rem;
+  overflow: auto;
+
+  background-color: var(--shape-body);
+
+  .title-main {
+    margin-top: 5rem;
+
+    h2 {
+      font: 700 2rem var(--ff-title);
+      color: var(--text-heading);
+    }
+  }
+
+  .info-event {
+    display: flex;
+    margin-bottom: 1.4rem;
+
+    h3 {
+      font: 600 1.3rem var(--ff-title);
+      color: var(--text-heading);
+      margin: 0.7rem;
+    }
+  }
+
+  .form-invite {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+
+    img {
+      width: 2rem;
+    }
+  }
+}

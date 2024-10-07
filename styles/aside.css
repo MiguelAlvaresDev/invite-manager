@@ -1,0 +1,29 @@
+aside {
+  background: url(../assets/Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 55rem;
+  border-radius: 0.8rem;
+
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem;
+
+    h1 {
+      font: 500 2.5rem/125% var(--ff-logo);
+      color: #ff598b;
+    }
+
+    h2 {
+      font: 400 1rem/100% var(--ff-text);
+      color: var(--text-heading);
+    }
+
+    img {
+      width: 3rem;
+    }
+  }
+}
