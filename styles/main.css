@@ -6,22 +6,22 @@ main {
 
   .title-main {
     margin-top: 5rem;
+  }
 
-    h2 {
-      font: 700 2rem var(--ff-title);
-      color: var(--text-heading);
-    }
+  h2 {
+    font: 700 2rem var(--ff-title);
+    color: var(--text-heading);
   }
 
   .info-event {
     display: flex;
     margin-bottom: 1.4rem;
+  }
 
-    h3 {
-      font: 600 1.3rem var(--ff-title);
-      color: var(--text-heading);
-      margin: 0.7rem;
-    }
+  h3 {
+    font: 600 1.3rem var(--ff-title);
+    color: var(--text-heading);
+    margin: 0.7rem;
   }
 
   .form-invite {

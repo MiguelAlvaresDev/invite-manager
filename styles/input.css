@@ -39,3 +39,7 @@ label {
 .segmented-control {
   display: flex;
 }
+
+.textarea {
+  margin-top: 1rem;
+}

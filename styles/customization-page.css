@@ -1,0 +1,93 @@
+.custom-invite {
+  margin-top: 3rem;
+
+  .title-custom {
+    display: flex;
+  }
+
+  span {
+    font: 400 1rem var(--ff-text);
+    color: var(--text-heading);
+  }
+}
+
+.color-event {
+  display: flex;
+  gap: 0.8rem;
+
+  .colors {
+    input {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 9999px;
+      margin-top: 1rem;
+      border: solid 7px var(--shape-button);
+    }
+  }
+
+  .colors-1 {
+    input {
+      background-color: var(--brand-light);
+    }
+  }
+
+  .colors-2 {
+    input {
+      background-color: #6a59ff;
+    }
+  }
+
+  .colors-3 {
+    input {
+      background-color: #b259ff;
+    }
+  }
+
+  .colors-4 {
+    input {
+      background-color: #ff59f9;
+    }
+  }
+
+  .colors-5 {
+    input {
+      background-color: #ff598b;
+    }
+  }
+
+  .colors-6 {
+    input {
+      background-color: #ff5959;
+    }
+  }
+
+  .colors-7 {
+    input {
+      background-color: #ff8b59;
+    }
+  }
+
+  .colors-8 {
+    input {
+      background-color: #ffcd59;
+    }
+  }
+
+  .colors-9 {
+    input {
+      background-color: #e1ff59;
+    }
+  }
+
+  .colors-10 {
+    input {
+      background-color: #59ff91;
+    }
+  }
+
+  .colors-11 {
+    input {
+      background-color: #59fff9;
+    }
+  }
+}
