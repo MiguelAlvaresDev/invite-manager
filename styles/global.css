@@ -45,3 +45,7 @@ body {
   margin-right: 8.125rem;
   margin-left: 8.125rem;
 }
+
+.flex {
+  display: flex;
+}
