@@ -1,8 +1,7 @@
 main {
   border-radius: 0.8rem;
-  overflow: auto;
-
   background-color: var(--shape-body);
+  overflow-y: auto;
 
   .title-main {
     margin-top: 5rem;

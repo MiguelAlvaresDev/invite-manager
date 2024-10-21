@@ -1,0 +1,10 @@
+.personal-data {
+  .title {
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-bottom: 13px;
+    }
+  }
+}
