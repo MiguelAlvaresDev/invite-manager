@@ -2,8 +2,10 @@ aside {
   background: url(../assets/Background.png);
   background-size: cover;
   background-repeat: no-repeat;
+  position: fixed;
 
   height: 55rem;
+  width: 30rem;
   border-radius: 0.8rem;
 
   header {

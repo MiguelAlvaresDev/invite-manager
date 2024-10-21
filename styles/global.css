@@ -1,6 +1,5 @@
 #app {
-  display: grid;
-  grid-template-columns: 30rem 1fr;
+  display: flex;
   gap: 1.25rem;
   margin: 1.25rem;
 }
